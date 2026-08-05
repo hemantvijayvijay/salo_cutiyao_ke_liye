@@ -3,6 +3,10 @@ rg1 = {
     name     = "rg-derewala"
     location = "westus"
   }
+rg2 = {
+    name     = "rg-jitu"
+    location = "westus"
+  }
 
 }
 
