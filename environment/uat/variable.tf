@@ -1,8 +1,8 @@
 variable "rg1" {
- type = any
+  type = any
 }
 variable "vnet1" {
- type = any
+  type = any
 }
 variable "subnet1" {
   type = any
