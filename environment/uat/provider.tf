@@ -8,7 +8,16 @@ terraform {
 
     }
   }
+
+  
+  backend "azurerm" {
+    resource_group_name  = "rg-landing-zone"             
+        storage_account_name = "landingzonestorage12334" 
+        container_name       = "tfstate"              
+    key                  = "uat.terraform.tfstate" 
+  }
 }
+
 provider "azurerm" {
   features {
 
